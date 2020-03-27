@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Switch, HashRouter } from 'react-router-dom';
 import LandingPage from './routes/LandingPage/LandingPage'
 
 class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter>
         <div className="App">
           <Switch>
             {/* guideqr.com is default domain url */}
@@ -32,7 +32,7 @@ class App extends Component {
             />
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
