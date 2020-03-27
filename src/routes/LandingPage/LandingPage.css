@@ -1,0 +1,688 @@
+.landingpage_container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(245,245,237);
+}
+.boatimage_container{
+  width: auto;
+  height: 1762;
+  background-size: cover;
+  background-position:50% 50%;  /* Sets reference point to scale from */
+  background-repeat: no-repeat;
+  background-image: url('../../assets/boatbackground/janek-holoubek-15gOocGd8Qc-unsplash@2x.png');
+}
+
+.navBar_Full{
+  height: 90px;
+  margin-top: 90px;
+  margin-left: 120px;
+  margin-right: 120px;
+  background: rgba(255,255,255,0.5);
+}
+
+.bookNowButtonContainer{
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-right: 43px;
+  float: right
+}
+
+.bookNowButton{
+  width: 174px;
+  height: 47px;
+  background-color: rgb(237,228,218);
+  border-radius: 203px;
+
+  font-family: Mshtakan;
+  font-size: 21px;
+  color: rgb(1,90,77);
+}
+
+.navLinksContainer{
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 35px;
+  height: 20px;
+}
+.navLink{
+  font-family: Mshtakan;
+  font-size: 21px;
+  color: rgba(0,0,0,0.82);
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+.mobileNavButton{
+  -webkit-appearance:none;
+  background: none;
+  border: none;
+  margin-left: 30px;
+  margin-top: 40px;
+  width: 36px;
+  height: 30px;
+}
+
+
+.experience_container{
+  background-color: rgb(30,200,185,0.8);
+  margin-top: 200px;
+  margin-left: 14%;
+  max-width: 398px;
+}
+
+.experience_text{
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 22px;
+
+  font-family: IowanOldStyle;
+  font-style: italic;
+  color: rgb(212,224,238);
+  font-size: 47px;
+}
+
+.osaka_container{
+  display: flex;
+  background-color: rgb(30,200,185,0.8);
+  margin-top: 128px;
+  margin-left: 25%;
+  margin-right: 21%;
+  max-width: 771px;
+  height: 258px;
+}
+
+.osaka_text{
+  width: 100%;
+  text-align: center;
+  font-family: Mshtakan;
+  color: rgb(212,224,238);
+  font-size: 200px;
+}
+
+.message_container{
+  display: inline-block;
+  margin-left: 9.1%;
+  margin-right: 9.1%;
+  margin-top: 17%;
+}
+
+
+.message_text{
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 41px;
+  color: rgb(237,228,218);
+}
+
+
+.discoverButton{
+  margin-top: 12.1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: none;
+  border: 2px solid rgb(212,224,238);
+}
+.discoverButton_text{
+  padding-top: 10px;
+  text-align: center;
+  font-family: HoeflerText-Regular;
+  font-size: 58px;
+  color: rgb(237,228,218);
+}
+
+.scrolldown_text{
+  margin-top: 5%;
+  text-align: center;
+  font-family: HoeflerText-Regular;
+  font-size: 28px;
+  color: rgb(237,228,218);
+}
+
+.down_arrow{
+  margin-top: 1.6%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+
+
+
+.info_container{
+
+}
+.Discover_text_container{
+  margin-top: 96px;
+  margin-left: 10.2%;
+  position: relative;
+  z-index: 6;
+}
+.shadow_text{
+  font-family: HoeflerText-Regular;
+  font-size: 200px;
+  color: rgba(40,41,41,0.11);
+}
+
+.tour_text_card{
+  margin-left: 6.94%;
+  width: 738.5px;
+  position: relative;
+  z-index: 5;
+  background-color: rgb(237,228,218);
+  top: -20px;
+
+}
+
+.tour_text_title{
+  font-family: Mshtakan;
+  font-size: 90px;
+  text-align: center;
+  padding-top: 40px;
+  color: rgb(1,90,77);
+}
+.tour_text_container{
+  margin-top: 14px;
+  margin-left: 9.75%;
+  margin-right: 4.18%;
+  padding-bottom: 10px;
+  font-family: Mshtakan;
+  font-size: 40px;
+  color: rgb(54,69,79);
+  text-align: left;
+}
+
+.textandinfo{
+  margin-top: -5.5%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.park_image_container{
+  width: 628px;
+  height: 941px;
+  position: relative;
+  z-index: 4;
+  left: -6.5%;
+  margin-top: -2%;
+}
+.park_image{
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+
+.food_content_container{
+  margin-top: 150px;
+}
+
+.ramen_image_container{
+
+}
+.ramen_image{
+  width: 626px;
+  height: 944px;
+  position: relative;
+  z-index: 4;
+  left: 10.5%;
+  margin-top: -10%;
+}
+
+
+.food_text_card{
+  width: 649px;
+  position: relative;
+  z-index: 5;
+  background-color: rgb(237,228,218);
+  margin-top: 10%;
+
+}
+
+.food_text_title{
+  font-family: Mshtakan;
+  font-size: 90px;
+  text-align: center;
+  padding-top: 40px;
+  color: rgb(1,90,77);
+}
+.food_text_container{
+  margin-top: 14px;
+  margin-left: 9.75%;
+  margin-right: 4.18%;
+  padding-bottom: 10px;
+  font-family: Mshtakan;
+  font-size: 40px;
+  color: rgb(54,69,79);
+  text-align: left;
+}
+
+
+
+
+.hours_content_container{
+  margin-top: 150px;
+}
+
+.umbrella_image_container{
+  width: 628px;
+  height: 941px;
+  position: relative;
+  z-index: 4;
+  left: -6.5%;
+  margin-top: -10%;
+}
+.umbrella_image{
+  width: 100%;
+  height: 100%;
+
+}
+
+.hours_text_card{
+  margin-left: 6.94%;
+  width: 673.5px;
+  height: 947px;
+  position: relative;
+  z-index: 5;
+  background-color: rgb(237,228,218);
+  top: -20px;
+
+}
+.hours_text_data{
+  width: 100%;
+  height: 100%;
+}
+
+.hours_text_dates{
+  text-align: center
+}
+
+.sponsors_content_container{
+  margin-top: 150px;
+}
+
+.sponsors_container{
+  z-index: 5;
+  position: relative;
+  top: -40px;
+  margin-left: 3.95%;
+  margin-right: 5.2%;
+  border: 1px solid;
+  height: 560px;
+
+}
+
+.sponsors_inner_container{
+  top: 50%;
+  position: relative;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+
+
+.sponsors_logo_container{
+  width: 400px;
+  height: 170px;
+  background-color: rgba(1,90,77,0.65);
+  text-align: center;
+}
+
+.sponsors_logo_text{
+  padding-top: 30px;
+  font-family: Mshtakan;
+  font-size: 81px;
+  color: rgb(0,0,0);
+}
+.sponsors_teamwork_container{
+  float: right;
+  margin-right: 20%;
+  margin-top: -7.5%;
+}
+.sponsors_teamwork_img_container{
+  width: 330px;
+  height: 277px;
+}
+
+.sponsors_teamwork_img{
+  width: 100%;
+  height: 100%;
+}
+
+.sponsors_teamwork_text{
+  font-family: 'New-York-Extra-Large_Regular';
+  font-size: 50px;
+  color: rgb(84,31,31);
+}
+
+
+
+
+.reviews_content_container{
+  margin-top: 150px;
+}
+.reviews_text_container{
+  margin-top: 96px;
+  margin-left: 48%;
+  position: relative;
+  z-index: 6;
+}
+
+.review_container{
+  z-index: 5;
+  position: relative;
+  top: -20px;
+  margin-left: 3.95%;
+  margin-right: 5.2%;
+  border: 1px solid;
+  border-color: rgb(1,90,77);
+  height: 508px;
+
+}
+
+.review_inner_container{
+  top: 50%;
+  position: relative;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.review_img_container{
+  margin-left: 2.5%;
+  height: 300px;
+  width: 300px;
+  background-color: rgba(1,90,77,0.65);
+  border-radius: 50%;
+
+}
+
+.review_nameandquote_container{
+    flex-grow: 1;
+}
+.review_name_container{
+  align: left;
+  margin-top: 10px;
+}
+.review_name_text{
+  padding-left: 20px;
+  font-family: IowanOldStyle;
+  font-size: 55px;
+  color: rgb(0,0,0)
+}
+
+.review_quote_text{
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  font-family: Helvetica;
+  font-size: 28px;
+}
+
+.footer_container{
+  background-color: rgb(1,90,77);
+  width: 100%;
+  height: 610px;
+
+}
+.footer_container:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer_left_column{
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  font-family: Mshtakan;
+  text-align: center
+}
+
+.footer_middle_column{
+  float: left;
+  width: 33.33%;
+  height: 100%;
+
+
+}
+
+.footer_right_column{
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  font-family: Mshtakan;
+  text-align: center;
+}
+
+.footer_text_legal{
+  padding-top: 32.1%;
+  font-size: 47px;
+  color: rgb(237,217,195)
+}
+/*MEDIA SCREENS*/
+
+
+.footer_text_legal{
+  padding-top: 32.1%;
+  font-size: 47px;
+  color: rgb(237,217,195)
+}
+
+.footer_text_contact{
+  padding-top: 32.1%;
+  font-size: 47px;
+  color: rgb(237,217,195);
+}
+
+.footer_text{
+  padding-top: 4.75%;
+  font-size: 30px;
+  color: rgb(237,217,195);
+  letter-spacing: 3.76px;
+}
+
+
+.social_icon_cont{
+  padding-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center
+}
+.icon_gap_cont{
+  width: 20%;
+  height: 100%;
+}
+.ind_icon_cont{
+  width: 70px;
+  height:70px;
+}
+
+.dea_logo_cont{
+  padding-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  padding-top: 30%;
+  width: 270px;
+  height: 97px;
+}
+
+.dea_logo{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 1439px) {
+  .boatimage_container{
+    width: 100%;
+  }
+  .navLink{
+    padding-right: 20px;
+  }
+  .experience_container{
+    max-width: 365px;
+    margin-left: 5.6%;
+  }
+  .experience_text{
+    font-size: 45px;
+  }
+  .osaka_text{
+    font-size: 180px;
+  }
+  .message_text{
+    font-size: 31px;
+  }
+
+  .textandinfo{
+    width: 100%;
+    margin-top: -65px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tour_text_card{
+    width: 549px;
+    height: 560px;
+  }
+  .tour_text_title{
+    padding-top: 20px;
+    font-size: 74px;
+  }
+  .tour_text_container{
+    margin-top: -5%;
+    margin-left: 4.5%;
+    margin-right: 2.18%;
+    font-size: 33px;
+  }
+
+  .park_image_container{
+    margin-top: 0%;
+    top: 60px;
+    width: 456px;
+    height: 684px;
+  }
+
+  .Discover_text_container{
+    margin-top: 66px;
+    margin-left: 5.56%;
+    position: relative;
+    z-index: 6;
+  }
+  .shadow_text{
+    font-family: HoeflerText-Regular;
+    font-size: 150px;
+    color: rgba(40,41,41,0.11);
+  }
+
+
+
+}
+
+@media screen and (max-width: 1023px) {
+  .boatimage_container{
+    width: auto;
+  }
+  .navLinksContainer{
+    padding-left: 15px;
+  }
+  .navLink{
+    padding-right: 15px;
+  }
+  .bookNowButtonContainer{
+    padding-right: 14px;
+  }
+  .bookNowButton{
+    font-family: Mshtakan;
+    width: 146px;
+    height: 42px;
+  }
+  .experience_container{
+    max-width: 300px;
+    margin-left: 7.4%;
+  }
+  .experience_text{
+    font-size: 40px;
+  }
+  .osaka_container{
+    margin-left: 10.6%;
+    margin-right: 10.6%;
+    height: 136px;
+  }
+  .osaka_text{
+    font-size: 100px;
+  }
+  .discoverButton_text{
+    font-size: 33px;
+  }
+  .message_text{
+    font-size: 21px;
+  }
+
+
+
+
+
+}
+@media screen and (max-width: 767px) {
+  .bookNowButtonContainer{
+    margin-right: 39px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .landingpage_container{
+  }
+  .boatimage_container{
+    height: 823px;
+  }
+  .mobileNavButton{
+    margin-left: 30px;
+    margin-top: 46px;
+  }
+  .bookNowButtonContainer{
+    margin-right: 0px;
+    margin-top: 40px;
+  }
+  .experience_container{
+    margin-top: 19.5%;
+    margin-left: 15.2%;
+    max-width: 130px;
+    max-height: 40px;
+  }
+  .experience_text{
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+  }
+  .osaka_container{
+    margin-top: 30px;
+    margin-left: 10.6%;
+    margin-right: 10.6%;
+    height: 67px;
+  }
+  .osaka_text{
+    font-size: 55px;
+  }
+  .message_container{
+    margin-left: 4.2%;
+    margin-right: 4.2%;
+  }
+
+  .message_text{
+    font-size: 14px;
+  }
+
+
+}
