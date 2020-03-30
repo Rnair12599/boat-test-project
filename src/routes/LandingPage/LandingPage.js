@@ -144,12 +144,12 @@ const LandingPage = ({props}) => {
         </div>
 
         <div className = "hours_content_container">
-          <div className = "Discover_text_container">
+          <div className = "Cherish_text_container">
             <div className = "shadow_text">
               Cherish
             </div>
           </div>
-          <div className = "textandinfo">
+          <div className = "hours_textandinfo">
             <div className = "hours_text_card">
               <img className = "hours_text_data" src={HoursContent} alt="hours_content"/>
 
@@ -171,12 +171,13 @@ const LandingPage = ({props}) => {
             <div className  = "review_inner_container">
 
                 <div className = "review_img_container">
+                  <div className = "review_img"></div>
                 </div>
 
                 <div classname = "review_nameandquote_container">
                   <div className = "review_name_container">
                     <div className = "review_name_text">
-                      Michael Gray
+                      Yoshi Tsuji
                     </div>
                     <div className = "review_quote_text">
                        “One of the best tours I’ve been on, great scenery & the food was great!
@@ -187,7 +188,11 @@ const LandingPage = ({props}) => {
             </div>
           </div>
         </div>
-
+        <button className = "bottombookNowButton">
+          <div div className = "bottombookNowText">
+            Book Now
+          </div>
+        </button>
 
       </div>
 
@@ -226,6 +231,12 @@ const LandingPage = ({props}) => {
             </div>
           </div>
         </span>
+
+        <button className = "discoverButton">
+          <div div className = "discoverButton_text">
+            Discover
+          </div>
+        </button>
       </div>
 
     </div>
