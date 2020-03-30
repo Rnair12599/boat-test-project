@@ -40,6 +40,7 @@ const LandingPage = ({props}) => {
 
 
   return(
+    <Media query="(min-width: 600px)" render={() => (
     <div className = "landingpage_container">
       <div className = "boatimage_container">
         <Media query="(min-width: 768px)" render={() => (
@@ -240,7 +241,8 @@ const LandingPage = ({props}) => {
       </div>
 
     </div>
-  );
+
+  )}/>);
 
 }
 
