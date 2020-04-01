@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import LandingPage from "./routes/LandingPage/LandingPage";
 import Contact from "./routes/ContactPage/Contact";
 
@@ -7,7 +7,7 @@ import Contact from "./routes/ContactPage/Contact";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter>
         <div className="App">
           <Switch>
             {/* guideqr.com is default domain url */}
@@ -31,7 +31,7 @@ class App extends Component {
             <Route path="/tours" render={props => <LandingPage {...props} />} />
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
