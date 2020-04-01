@@ -1,23 +1,25 @@
-import React, { Component } from 'react';
-import { Route, Switch, HashRouter } from 'react-router-dom';
-import LandingPage from './routes/LandingPage/LandingPage'
+import React, { Component } from "react";
+import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import LandingPage from "./routes/LandingPage/LandingPage";
+import Contact from "./routes/ContactPage/Contact";
+
 
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <Router>
         <div className="App">
           <Switch>
             {/* guideqr.com is default domain url */}
             {/* guideqr.com/<COMPANY>/<PRODUCT OR MENU ITEM> */}
+            <Route path="/contact" render={props => <Contact {...props} />} />
+
             <Route
-              exact path="/"
+              exact
+              path="/"
               render={props => <LandingPage {...props} />}
             />
-            <Route
-              path="/about"
-              render={props => <LandingPage {...props} />}
-            />
+            <Route path="/about" render={props => <LandingPage {...props} />} />
             <Route
               path="/packages"
               render={props => <LandingPage {...props} />}
@@ -26,13 +28,10 @@ class App extends Component {
               path="/contact"
               render={props => <LandingPage {...props} />}
             />
-            <Route
-              path="/tours"
-              render={props => <LandingPage {...props} />}
-            />
+            <Route path="/tours" render={props => <LandingPage {...props} />} />
           </Switch>
         </div>
-      </HashRouter>
+      </Router>
     );
   }
 }

@@ -241,8 +241,10 @@ const LandingPage = ({props}) => {
       </div>
 
     </div>
+    )}/>
+  );
 
-  )}/>);
+
 
 }
 
