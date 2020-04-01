@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a9912220540d425950f51a0e9a4a115",
+    "revision": "b0372ef0c39c8d6f5664f59b597ad3ea",
     "url": "/boat-test-project/index.html"
   },
   {
-    "revision": "dab5920c9be602ad6ca2",
-    "url": "/boat-test-project/static/css/main.1ee205f5.chunk.css"
+    "revision": "7aaf51a1610d2db53c8f",
+    "url": "/boat-test-project/static/css/main.c4a668eb.chunk.css"
   },
   {
-    "revision": "1c3a933148c5cd0b18f6",
-    "url": "/boat-test-project/static/js/2.8a22a530.chunk.js"
+    "revision": "d0f42d2a180b1d193cff",
+    "url": "/boat-test-project/static/js/2.65aaca59.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/boat-test-project/static/js/2.8a22a530.chunk.js.LICENSE.txt"
+    "revision": "4d47ffde3dc69784e8e23fd910817ef8",
+    "url": "/boat-test-project/static/js/2.65aaca59.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dab5920c9be602ad6ca2",
-    "url": "/boat-test-project/static/js/main.00bcd05c.chunk.js"
+    "revision": "7aaf51a1610d2db53c8f",
+    "url": "/boat-test-project/static/js/main.59e92fda.chunk.js"
   },
   {
     "revision": "15f16564a85b0e956d13",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "41b1db20b33ee1e91ffdda1e2dfa3ee5",
     "url": "/boat-test-project/static/media/janek-holoubek-15gOocGd8Qc-unsplash@2x.41b1db20.png"
+  },
+  {
+    "revision": "06393eebd7d952a65c0db1292ab551cd",
+    "url": "/boat-test-project/static/media/masaaki-komori--4pA83nGCR8-unsplash.06393eeb.png"
   },
   {
     "revision": "17162c633ef1ee58f337501489477dd6",
