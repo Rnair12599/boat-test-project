@@ -40,7 +40,7 @@ const LandingPage = ({props}) => {
 
 
   return(
-    <Media query="(min-width: 600px)" render={() => (
+
     <div className = "landingpage_container">
       <div className = "boatimage_container">
         <Media query="(min-width: 768px)" render={() => (
@@ -69,13 +69,17 @@ const LandingPage = ({props}) => {
           </div>
         )}/>
         <div className = "experience_container">
-          <div div className = "experience_text">
-            Experience...
+          <div className = "blur_container">
+            <div className = "experience_text">
+              Experience...
+            </div>
           </div>
         </div>
         <div className = "osaka_container">
-          <div div className = "osaka_text">
-            Osaka
+          <div className = "blur_container">
+            <div div className = "osaka_text">
+              Osaka
+            </div>
           </div>
         </div>
         <span>
@@ -120,28 +124,64 @@ const LandingPage = ({props}) => {
           </div>
         </div>
 
+
         <div className = "food_content_container">
-          <div className = "textandinfo">
-            <div className = "ramen_image_container">
-              <img className = "ramen_image" src = {RamenPictures} alt = "ramen_picture"/>
-            </div>
-            <div className = "food_text_card">
-              <div className = "food_text_title">
-                Food
-              </div>
-              <div className = "food_text_container">
-                <p>
-                      We want you to relax & enjoy the beautiful scenery, a wide range of food & drinks will be available throughout the tour.
-                </p>
-                <p>
-                      For your enjoyment, during the tour, guests  are provided with snacks, non-alcoholic such as Japanese Green tea & alcoholic beverages such as - Sake, Japanese Whiskey & Wine!
-                </p>
-                <p>
-                      Multiple Cuisines are offered throughout the trip - Japanese-italian, Hamburgers, Yakitori (traditional grilled chicken), Ramen, Tempura, Takoyaki & Korean meals! Even Vegetarian options are available!
-                </p>
+          <Media query="(max-width: 767px)" render={() => (
+            <div className = "Enjoy_text_container">
+              <div className = "shadow_text">
+                Enjoy
               </div>
             </div>
-          </div>
+          )}/>
+          <Media query="(min-width: 600px)" render={() => (
+            <div className = "food_textandinfo">
+              <div className = "ramen_image_container">
+                <img className = "ramen_image" src = {RamenPictures} alt = "ramen_picture"/>
+              </div>
+              <div className = "food_text_card">
+                <div className = "food_text_title">
+                  Food
+                </div>
+                <div className = "food_text_container">
+                  <p>
+                        We want you to relax & enjoy the beautiful scenery, a wide range of food & drinks will be available throughout the tour.
+                  </p>
+                  <p>
+                        For your enjoyment, during the tour, guests  are provided with snacks, non-alcoholic such as Japanese Green tea & alcoholic beverages such as - Sake, Japanese Whiskey & Wine!
+                  </p>
+                  <p>
+                        Multiple Cuisines are offered throughout the trip - Japanese-italian, Hamburgers, Yakitori (traditional grilled chicken), Ramen, Tempura, Takoyaki & Korean meals! Even Vegetarian options are available!
+                  </p>
+                </div>
+              </div>
+            </div>
+          )} />
+
+          <Media query="(max-width: 599px)" render={() => (
+            <div className = "food_textandinfo">
+              <div className = "food_text_card">
+                <div className = "food_text_title">
+                  Food
+                </div>
+                <div className = "food_text_container">
+                  <p>
+                        We want you to relax & enjoy the beautiful scenery, a wide range of food & drinks will be available throughout the tour.
+                  </p>
+                  <p>
+                        For your enjoyment, during the tour, guests  are provided with snacks, non-alcoholic such as Japanese Green tea & alcoholic beverages such as - Sake, Japanese Whiskey & Wine!
+                  </p>
+                  <p>
+                        Multiple Cuisines are offered throughout the trip - Japanese-italian, Hamburgers, Yakitori (traditional grilled chicken), Ramen, Tempura, Takoyaki & Korean meals! Even Vegetarian options are available!
+                  </p>
+                </div>
+              </div>
+              <div className = "ramen_image_container">
+                <img className = "ramen_image" src = {RamenPictures} alt = "ramen_picture"/>
+              </div>
+            </div>
+          )}/>
+
+
         </div>
 
         <div className = "hours_content_container">
@@ -152,7 +192,71 @@ const LandingPage = ({props}) => {
           </div>
           <div className = "hours_textandinfo">
             <div className = "hours_text_card">
-              <img className = "hours_text_data" src={HoursContent} alt="hours_content"/>
+              <div className = "hours_title_cont">
+                Hours
+              </div>
+              <div className = "hours_text_dates">
+                March 28 - May 15
+              </div>
+              <div className = "hours_tour_tablecontainer">
+                <div className = "hours_tour_content">
+                  <div className = "hours_tour_content">
+                    <div className = "hours_tour_text">
+                      Tours
+                    </div>
+                    <div className = "hours_tour_times">
+                      <div>Day - 12-4pm</div>
+                      <div>Night - 5-9pm</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className = "hours_title_cont_prices">
+                Prices
+              </div>
+              <div className = "hours_tour_ages">
+                <span className = "hours_tour_adult">
+                  Adult
+                </span>
+                <span className = "hours_tour_childfour">
+                 Child<sub className = "subscript">(Age 4-12)</sub>
+                </span>
+              </div>
+
+              <div className = "hours_day_prices">
+                <span className = "hours_day_text">
+                  Day
+                </span>
+                <span className = "hours_day_price1">
+                  20,000 yen
+                </span>
+                <span className = "hours_day_price2">
+                  16,000 yen
+                </span>
+              </div>
+
+              <div className = "hours_blue_line"> </div>
+
+              <div className = "hours_day_prices">
+                <span className = "hours_day_text">
+                  Night
+                </span>
+                <span className = "hours_day_price1">
+                  25,000 yen
+                </span>
+                <span className = "hours_day_price2">
+                  21,000 yen
+                </span>
+              </div>
+
+              <div className = "hours_text_child3">
+                Child<sub className = "subscript">(Age 0-3)</sub>
+              </div>
+
+              <div className = "hours_text_free">
+                Free
+              </div>
 
             </div>
             <div className = "umbrella_image_container">
@@ -161,42 +265,62 @@ const LandingPage = ({props}) => {
           </div>
         </div>
 
-
-        <div className = "review_content_container">
-          <div className = "reviews_text_container">
-            <div className = "shadow_text">
-              Adventure
+        <Media query="(min-width: 600px)" render={() => (
+          <div className = "review_content_container">
+            <div className = "reviews_text_container">
+              <div className = "shadow_text">
+                Adventure
+              </div>
             </div>
-          </div>
-          <div className = "review_container">
-            <div className  = "review_inner_container">
+            <div className = "review_container">
+              <div className  = "review_inner_container">
 
-                <div className = "review_img_container">
-                  <div className = "review_img"></div>
-                </div>
+                  <div className = "review_img_container">
+                    <div className = "review_img"></div>
+                  </div>
 
-                <div classname = "review_nameandquote_container">
-                  <div className = "review_name_container">
-                    <div className = "review_name_text">
-                      Yoshi Tsuji
-                    </div>
-                    <div className = "review_quote_text">
-                       “One of the best tours I’ve been on, great scenery & the food was great!
+                  <div classname = "review_nameandquote_container">
+                    <div className = "review_name_container">
+                      <div className = "review_name_text">
+                        Yoshi Tsuji
+                      </div>
+                      <div className = "review_quote_text">
+                         “One of the best tours I’ve been on, great scenery & the food was great!
+                      </div>
                     </div>
                   </div>
-                </div>
 
+              </div>
             </div>
           </div>
-        </div>
+        )}/>
+
+        <Media query="(max-width: 599px)" render={() => (
+          <div className = "review_container">
+              <div className = "review_img_container">
+                <div className = "review_img"></div>
+              </div>
+              <div className = "review_name_container">
+                <div className = "review_name_text">
+                  Yoshi Tsuji
+                </div>
+                <div className = "review_quote_text">
+                   “One of the best tours I’ve been on, great scenery & the food was great!
+                </div>
+              </div>
+          </div>
+
+        )}/>
+
         <button className = "bottombookNowButton">
           <div div className = "bottombookNowText">
             Book Now
           </div>
         </button>
 
-      </div>
+    </div>
 
+    <Media query="(min-width: 1024px)" render={() => (
       <div className = "footer_container">
         <span>
           <div className = "footer_left_column">
@@ -217,7 +341,21 @@ const LandingPage = ({props}) => {
               <img className = "ind_icon_cont" src = {Instaicon}/>
             </div>
             <div className = "dea_logo_cont">
-              <img className = "dea_logo" src = {DeaConnectionLogo}/>
+              <div>
+                <span className = "dea_copyright_sym">
+                  ©
+                </span>
+                <span className = "dea_big_text">
+                  Dea
+                </span>
+              </div>
+
+              <div>
+                <span className = "dea_connection_co">
+                  Connection Co.
+                </span>
+              </div>
+
             </div>
           </div>
           <div className = "footer_right_column">
@@ -232,20 +370,73 @@ const LandingPage = ({props}) => {
             </div>
           </div>
         </span>
+      </div>
+    )}/>
 
-        <button className = "discoverButton">
-          <div div className = "discoverButton_text">
-            Discover
+  <Media query="(max-width: 1023px)" render={() => (
+      <div className = "footer_medium_container">
+        <div className = "footer_container">
+          <span>
+            <div className = "footer_left_column">
+              <div className = "footer_text_legal">
+                Legal
+              </div>
+              <div className = "footer_text">
+                Terms of Use
+              </div>
+              <div className = "footer_text">
+                Privacy Policy
+              </div>
+            </div>
+
+            <div className = "footer_right_column">
+              <div className = "footer_text_contact">
+                Contact
+              </div>
+              <div className = "footer_text">
+                +81-70-2822-2914
+              </div>
+              <div className = "footer_text">
+                yoshi@guideqr.com
+              </div>
+            </div>
+          </span>
+        </div>
+        <div className = "footer_bottom">
+          <div className = "social_icon_cont">
+            <img className = "ind_icon_cont" src = {FBicon}/>
+            <div className = "icon_gap_cont"></div>
+            <img className = "ind_icon_cont" src = {Instaicon}/>
           </div>
-        </button>
+          <div className = "dea_logo_cont">
+            <div>
+              <span className = "dea_copyright_sym">
+                ©
+              </span>
+              <span className = "dea_big_text">
+                Dea
+              </span>
+            </div>
+
+            <div>
+              <span className = "dea_connection_co">
+                Connection Co.
+              </span>
+            </div>
+
+          </div>
+        </div>
+
       </div>
 
-    </div>
     )}/>
+
+
+    </div>
+
+
+
   );
-
-
-
 }
 
 export default LandingPage

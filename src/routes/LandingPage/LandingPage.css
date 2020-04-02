@@ -64,10 +64,15 @@
 
 
 .experience_container{
-  background-color: rgb(30,200,185,0.8);
+  background-color: rgba(30,200,185,0.4);
   margin-top: 200px;
   margin-left: 14%;
   max-width: 398px;
+}
+.blur_container{
+  width: 100%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);text-align: center;
 }
 
 .experience_text{
@@ -81,15 +86,17 @@
   font-size: 47px;
 }
 
+
 .osaka_container{
   display: flex;
-  background-color: rgb(30,200,185,0.8);
   margin-top: 128px;
+  background-color: rgba(30,200,185,0.4);
   margin-left: 25%;
   margin-right: 21%;
   max-width: 771px;
   height: 258px;
 }
+
 
 .osaka_text{
   width: 100%;
@@ -147,13 +154,14 @@
   margin-right: auto;
   width: auto;
   height: auto;
+  margin-bottom: 3%;
 }
 
 
 
 
 .info_container{
-
+ width: 100%;
 }
 .Discover_text_container{
   margin-top: 96px;
@@ -216,8 +224,20 @@
 
 }
 
+.Enjoy_text_container{
+  margin-top: 96px;
+  margin-left: 10.2%;
+  position: relative;
+  z-index: 6;
+}
 
-
+.food_textandinfo{
+  margin-top: -5.5%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .food_content_container{
   margin-top: 150px;
@@ -242,7 +262,6 @@
   z-index: 5;
   background-color: rgb(237,228,218);
   margin-top: 10%;
-  margin-left: -50%;
 }
 
 .food_text_title{
@@ -308,13 +327,147 @@
   top: -20px;
 
 }
-.hours_text_data{
-  width: 100%;
-  height: 100%;
+
+.hours_tour_tablecontainer{
+  display: inline;
+
+  height: 250px;
+}
+
+.hours_title_cont{
+  font-family: Mshtakan;
+  font-size: 81px;
+  color: rgb(1,90,77);
+  margin-top: 7.5%;
+  margin-left: 33%;
 }
 
 .hours_text_dates{
-  text-align: center
+  text-align: center;
+  font-family: Mshtakan;
+  font-size: 40px;
+  color: rgb(54,69,79);
+  padding-top: 5%;
+  padding-bottom: 5%
+}
+
+
+.hours_tours_content{
+  width: 100%;
+}
+.hours_tours_content:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hours_tour_text{
+  float: left;
+  height: 100%;
+  font-family: Mshtakan;
+  font-size: 34px;
+  color: rgb(54,69,79);
+  font-style: italic;
+  text-align: center;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+  padding-left: 10%;
+  padding-right: 11%;
+}
+
+.hours_tour_times{
+  float: left;
+  height: 100%;
+  font-family: Mshtakan;
+  font-size: 38px;
+  color: rgb(54,69,79);
+  text-align: center;
+}
+
+.hours_title_cont_prices{
+  font-family: Mshtakan;
+  font-size: 81px;
+  color: rgb(1,90,77);
+  margin-top: 20%;
+  margin-left: 33%;
+}
+.hours_tour_ages{
+  margin-top: 5%;
+}
+
+.hours_tour_adult{
+  font-family: Mshtakan;
+  font-size: 41px;
+  color: rgb(54,69,79);
+  margin-left: 27.5%;
+}
+
+.hours_tour_childfour{
+  font-family: Mshtakan;
+  font-size: 41px;
+  color: rgb(54,69,79);
+  margin-left: 9.65%;
+}
+
+.subscript{
+  vertical-align: sub;
+  font-size: x-large;
+}
+
+.hours_day_prices{
+  margin-top: 3%;
+  width: 100%;
+
+}
+
+.hours_day_text{
+  font-family: Mshtakan;
+  font-size: 41px;
+  color: rgb(54,69,79);
+  font-style: italic;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.hours_day_price1{
+  font-family: Mshtakan;
+  font-size: 31px;
+  color: rgb(54,69,79);
+  font-style: italic;
+  padding-right: 5%;
+}
+.hours_day_price2{
+  font-family: Mshtakan;
+  font-size: 31px;
+  color: rgb(54,69,79);
+  font-style: italic;
+  padding-right: 5%;
+
+}
+
+.hours_blue_line{
+  margin-top: 3%;
+  width: 54.25%;
+  height: 3px;
+  background-color: rgb(1,90,77);
+  margin-left: 21.75%;
+  margin-right: 24%;
+}
+
+
+.hours_text_child3{
+  font-family: Mshtakan;
+  font-size: 40px;
+  color: rgb(54,69,79);
+  text-align: center;
+  margin-top: 10%;
+}
+.hours_text_free{
+  font-family: Mshtakan;
+  font-size: 25px;
+  color: rgb(54,69,79);
+  text-align: center;
+  margin-top: 2%;
 }
 
 .sponsors_content_container{
@@ -468,8 +621,6 @@
   float: left;
   width: 33.33%;
   height: 100%;
-
-
 }
 
 .footer_right_column{
@@ -526,16 +677,29 @@
 
 .dea_logo_cont{
   padding-top: 50%;
-  margin-left: 50%;
+  margin-left: 57.5%;
   transform: translate(-50%);
   padding-top: 30%;
   width: 270px;
   height: 97px;
 }
+.dea_copyright_sym{
+  color: rgb(237,217,195);
+  font-size: 22px;
+  font-family: Mshtakan;
+}
+.dea_big_text{
+  font-family: SavoyeLet;
+  color: rgb(237,217,195);
+  font-size: 82px;
+  font-style: italic;
+}
 
-.dea_logo{
-  height: 100%;
-  width: 100%;
+.dea_connection_co{
+  color: rgb(237,217,195);
+  font-size: 28px;
+  font-family: Mshtakan;
+  padding-left: 82px;
 }
 
 .bottombookNowButton{
@@ -544,8 +708,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 748px;
-  height: 203px;
+  max-width: 748px;
+  max-height: 203px;
   border-radius: 203px;
   margin-bottom: 237px;
 }
@@ -609,16 +773,7 @@
     height: 684px;
   }
 
-  .Discover_text_container{
-    margin-top: 66px;
-    margin-left: 5.56%;
 
-  }
-  .shadow_text{
-    font-family: HoeflerText-Regular;
-    font-size: 150px;
-    color: rgba(40,41,41,0.11);
-  }
   .Discover_text_container{
     margin-top: 66px;
     margin-left: 5%;
@@ -663,6 +818,10 @@
 
   .food_content_container{
     margin-top: 0px;
+  }
+
+  .food_textandinfo{
+    margin-left: 0%;
   }
 
   .ramen_image_container{
@@ -844,7 +1003,88 @@
     font-size: 21px;
   }
 
+  .footer_medium_container{
+    background-color: rgb(1,90,77);
+    width: 100%;
+  }
 
+  .footer_container{
+    background-color: rgb(1,90,77);
+    width: 100%;
+    height: 305px;
+
+  }
+  .footer_container:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer_left_column{
+    float: left;
+    width: 50%;
+    height:100%;
+    font-family: Mshtakan;
+    text-align: center
+  }
+
+  .footer_bottom{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer_right_column{
+    float: left;
+    width: 50%;
+    height:100%;
+    font-family: Mshtakan;
+    text-align: center;
+  }
+
+  .social_icon_cont{
+    padding-top: 5%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center
+  }
+  .icon_gap_cont{
+    width: 10%;
+    height: 100%;
+  }
+  .ind_icon_cont{
+    width: 70px;
+    height:70px;
+  }
+
+  .dea_logo_cont{
+    padding-top: 20%;
+    margin-left: 55%;
+    transform: translate(-50%);
+    width: 270px;
+    height: 97px;
+    margin-bottom: 10%;
+  }
+  .dea_copyright_sym{
+    color: rgb(237,217,195);
+    font-size: 22px;
+    font-family: Mshtakan;
+  }
+  .dea_big_text{
+    font-family: SavoyeLet;
+    color: rgb(237,217,195);
+    font-size: 82px;
+    font-style: italic;
+  }
+
+  .dea_connection_co{
+    color: rgb(237,217,195);
+    font-size: 28px;
+    font-family: Mshtakan;
+    padding-left: 82px;
+  }
 
 
 
@@ -853,6 +1093,21 @@
   .bookNowButtonContainer{
     margin-right: 39px;
     margin-top: 40px;
+  }
+  .textandinfo{
+    margin-left: 0%;
+    justify-content: none;
+    align-items: none;
+  }
+  .food_textandinfo{
+    margin-left: 0%;
+    justify-content: none;
+    align-items: none;
+  }
+  .hours_textandinfo{
+    margin-left: 0%;
+    justify-content: none;
+    align-items: none;
   }
 }
 
@@ -901,6 +1156,10 @@
   }
 
 
+  .Discover_text_container{
+    top: -20px;
+    margin-left: 14px;
+  }
   .shadow_text{
     font-size: 70px;
   }
@@ -908,8 +1167,8 @@
     margin-left: 0;
     width: 319.8px;
     height: 393.3px;
-    margin-top: 0%;
-    margin-left: -12.5%;
+    margin-top: 20%;
+    margin-left: 5%;
     padding-bottom: 10%;
   }
 
@@ -928,14 +1187,17 @@
 
   .textandinfo{
     margin-left: 0%;
+    display: block;
+    justify-content: none;
+    align-items: none;
   }
   .park_image_container{
     width: 244px;
     height: 365px;
     position: relative;
     z-index: 4;
-    left: -50%;
-    margin-top:35%;
+    left: 35%;
+    margin-top: -50%;
   }
   .park_image{
     width: 100%;
@@ -947,23 +1209,39 @@
     margin-top: 0px;
   }
 
+  .Enjoy_text_container{
+    margin-left: 18px;
+  }
+
+  .food_textandinfo{
+    margin-left: -5%;
+    margin-top: -6%;
+    margin-left: 6%;
+    z-index: 5;
+    display: block;
+    justify-content: none;
+    align-items: none;
+  }
+
   .ramen_image_container{
-    margin-top: 150%;
+    margin-top: 0%;
   }
   .ramen_image{
     width: 234px;
     height: 354px;
     position: relative;
     z-index: 4;
-    left: -66.5%;
-    margin-top: 0%;
+    margin-top: -15%;
+    left: 25%;
+    margin-bottom: 6%;
   }
 
 
   .food_text_card{
     width: 330px;
-    margin-top: 15%;
-    left: -15%;
+    margin-top: 0%;
+    left: 0%;
+    margin-left: 0%;
 
   }
 
@@ -978,29 +1256,31 @@
   }
 
   .Cherish_text_container{
-    margin-left:5%;
-    margin-top: 5%;
+    margin-left:0%;
+    margin-top: 6%;
   }
 
   .hours_content_container{
     margin-top: -5%;
+    margin-left: 0%;
   }
 
   .hours_textandinfo{
     margin-top: -2.5%;
-    margin-left: 0%;
+    margin-left: -9%;
     width: 100%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin-left: 0%;
+    justify-content: none;
+    align-items: none;
   }
 
 
   .umbrella_image_container{
     width: 296px;
     height: 445px;
-    left: -6.5%;
-    margin-top: 8%;
+    left: 12%;
+    margin-top: -35%;
   }
   .umbrella_image{
     width: 100%;
@@ -1010,6 +1290,7 @@
 
   .hours_text_card{
     margin-left: 6.94%;
+    margin-top: 5%;
     width: 315px;
     height: 459px;
     top: -20px;
@@ -1038,25 +1319,23 @@
   .review_container{
     z-index: 5;
     position: relative;
-    top: -20px;
-    margin-left: 3.95%;
-    margin-right: 5.2%;
+    top: 30px;
+    display: inline-block;
     border: 1px solid;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
     border-color: rgb(1,90,77);
     height: 508px;
 
   }
 
-  .review_inner_container{
-    top: 50%;
-    position: relative;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    display: flex;
-  }
-
   .review_img_container{
-    margin-left: 2.5%;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 172px;
+    height: 159px;
     background-color: rgba(1,90,77,0.65);
     border-radius: 50%;
 
@@ -1066,10 +1345,11 @@
       flex-grow: 1;
   }
   .review_name_container{
-    align: left;
+    align: none;
     margin-top: 10px;
   }
   .review_name_text{
+    text-align: center;
     padding-left: 20px;
     font-family: IowanOldStyle;
     font-size: 55px;
@@ -1077,11 +1357,14 @@
   }
 
   .review_quote_text{
-    margin-top: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-left: 50%;
+    width: 100%;
+    transform: translate(-50%);
     font-family: Helvetica;
-    font-size: 28px;
+    font-size: 20px;
   }
 
 }

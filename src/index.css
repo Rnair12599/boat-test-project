@@ -29,3 +29,9 @@ code {
   src: local('New-York-Extra-Large_Regular'),
        url('./assets/fonts/new-york-extra-large_regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'SavoyeLet';
+  src: local('SavoyeLet'),
+       url('./assets/fonts/Savoye_LET_Plain.ttf') format('truetype');
+}
