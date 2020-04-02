@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "923d5951a9ca18ac6f8a4ca9e2ef4784",
+    "revision": "6e682eb22dda9b084616dc237e56f1f0",
     "url": "/boat-test-project/index.html"
   },
   {
-    "revision": "52d25889623f0fffd509",
-    "url": "/boat-test-project/static/css/main.c4a668eb.chunk.css"
+    "revision": "c0469ee1e99e84cf4cfd",
+    "url": "/boat-test-project/static/css/main.b42d8d73.chunk.css"
   },
   {
-    "revision": "d2baa921492a9ca922c5",
-    "url": "/boat-test-project/static/js/2.b707f365.chunk.js"
+    "revision": "011e7ebe7028d1908bb4",
+    "url": "/boat-test-project/static/js/2.6b1a15bd.chunk.js"
   },
   {
     "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/boat-test-project/static/js/2.b707f365.chunk.js.LICENSE.txt"
+    "url": "/boat-test-project/static/js/2.6b1a15bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52d25889623f0fffd509",
-    "url": "/boat-test-project/static/js/main.4272cb95.chunk.js"
+    "revision": "c0469ee1e99e84cf4cfd",
+    "url": "/boat-test-project/static/js/main.2bf13e4b.chunk.js"
   },
   {
     "revision": "15f16564a85b0e956d13",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "38d3c95b932e213c664d696fa27c2edc",
     "url": "/boat-test-project/static/media/IowanOldStBTRoman.38d3c95b.ttf"
+  },
+  {
+    "revision": "52afd4d991258876901933696bd3b8f8",
+    "url": "/boat-test-project/static/media/Savoye_LET_Plain.52afd4d9.ttf"
   },
   {
     "revision": "697384b3fae8c762225813977d2b1111",
@@ -52,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boat-test-project/static/media/bantersnaps-Bxzrd0p6yOM-unsplash@3x.7c6546d4.png"
   },
   {
-    "revision": "0e272b9819d41a0ffcc6fc952c685b90",
-    "url": "/boat-test-project/static/media/hours_content.0e272b98.png"
+    "revision": "cdac5cba924cecefea24a45c192d886e",
+    "url": "/boat-test-project/static/media/hours_content.cdac5cba.png"
   },
   {
     "revision": "41b1db20b33ee1e91ffdda1e2dfa3ee5",
