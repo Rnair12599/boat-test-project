@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/boat-test-project/static/css/main.b42d8d73.chunk.css",
-    "main.js": "/boat-test-project/static/js/main.2bf13e4b.chunk.js",
-    "main.js.map": "/boat-test-project/static/js/main.2bf13e4b.chunk.js.map",
+    "main.css": "/boat-test-project/static/css/main.7edf79aa.chunk.css",
+    "main.js": "/boat-test-project/static/js/main.3b63f9ab.chunk.js",
+    "main.js.map": "/boat-test-project/static/js/main.3b63f9ab.chunk.js.map",
     "runtime-main.js": "/boat-test-project/static/js/runtime-main.605148b6.js",
     "runtime-main.js.map": "/boat-test-project/static/js/runtime-main.605148b6.js.map",
-    "static/js/2.6b1a15bd.chunk.js": "/boat-test-project/static/js/2.6b1a15bd.chunk.js",
-    "static/js/2.6b1a15bd.chunk.js.map": "/boat-test-project/static/js/2.6b1a15bd.chunk.js.map",
+    "static/js/2.522dcf96.chunk.js": "/boat-test-project/static/js/2.522dcf96.chunk.js",
+    "static/js/2.522dcf96.chunk.js.map": "/boat-test-project/static/js/2.522dcf96.chunk.js.map",
     "index.html": "/boat-test-project/index.html",
-    "precache-manifest.71a73aea8aff4ebc0de86069ac619231.js": "/boat-test-project/precache-manifest.71a73aea8aff4ebc0de86069ac619231.js",
+    "precache-manifest.c8aa47e959d5ebc2976113bfd0d74bc9.js": "/boat-test-project/precache-manifest.c8aa47e959d5ebc2976113bfd0d74bc9.js",
     "service-worker.js": "/boat-test-project/service-worker.js",
-    "static/css/main.b42d8d73.chunk.css.map": "/boat-test-project/static/css/main.b42d8d73.chunk.css.map",
-    "static/js/2.6b1a15bd.chunk.js.LICENSE.txt": "/boat-test-project/static/js/2.6b1a15bd.chunk.js.LICENSE.txt",
+    "static/css/main.7edf79aa.chunk.css.map": "/boat-test-project/static/css/main.7edf79aa.chunk.css.map",
+    "static/js/2.522dcf96.chunk.js.LICENSE.txt": "/boat-test-project/static/js/2.522dcf96.chunk.js.LICENSE.txt",
     "static/media/DeaConnectionLogo.png": "/boat-test-project/static/media/DeaConnectionLogo.4f0023eb.png",
     "static/media/index.css": "/boat-test-project/static/media/new-york-extra-large_regular.4b281e5c.ttf",
     "static/media/andre-benz-MsMISAIe8Qw-unsplash.png": "/boat-test-project/static/media/andre-benz-MsMISAIe8Qw-unsplash.697384b3.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.605148b6.js",
-    "static/js/2.6b1a15bd.chunk.js",
-    "static/css/main.b42d8d73.chunk.css",
-    "static/js/main.2bf13e4b.chunk.js"
+    "static/js/2.522dcf96.chunk.js",
+    "static/css/main.7edf79aa.chunk.css",
+    "static/js/main.3b63f9ab.chunk.js"
   ]
 }
