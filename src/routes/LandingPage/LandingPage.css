@@ -4,17 +4,17 @@
   background-color: rgb(245,245,237);
 }
 .boatimage_container{
-  width: auto;
-  height: 1762;
+  width: 100%;
+  height: auto;
   background-size: cover;
-  background-position:50% 50%;  /* Sets reference point to scale from */
+  background-position:48% 52%;  /* Sets reference point to scale from */
   background-repeat: no-repeat;
   background-image: url('../../assets/boatbackground/janek-holoubek-15gOocGd8Qc-unsplash@2x.png');
 }
 
 .navBar_Full{
   height: 90px;
-  margin-top: 90px;
+  margin-top: 20px;
   margin-left: 120px;
   margin-right: 120px;
   background: rgba(255,255,255,0.5);
@@ -65,7 +65,7 @@
 
 .experience_container{
   background-color: rgba(30,200,185,0.4);
-  margin-top: 200px;
+  margin-top: 30px;
   margin-left: 14%;
   max-width: 398px;
 }
@@ -76,25 +76,25 @@
 }
 
 .experience_text{
-  padding-top: 19px;
-  padding-bottom: 19px;
-  padding-left: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 11px;
 
   font-family: IowanOldStyle;
   font-style: italic;
   color: rgb(212,224,238);
-  font-size: 47px;
+  font-size: 35px;
 }
 
 
 .osaka_container{
   display: flex;
-  margin-top: 128px;
+  margin-top: 40px;
   background-color: rgba(30,200,185,0.4);
   margin-left: 25%;
   margin-right: 21%;
   max-width: 771px;
-  height: 258px;
+  height: 138px;
 }
 
 
@@ -103,27 +103,29 @@
   text-align: center;
   font-family: Mshtakan;
   color: rgb(212,224,238);
-  font-size: 200px;
+  font-size: 120px;
 }
 
 .message_container{
   display: inline-block;
   margin-left: 9.1%;
   margin-right: 9.1%;
-  margin-top: 17%;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-top: 5%;
 }
 
 
 .message_text{
   text-align: center;
   font-family: Helvetica;
-  font-size: 41px;
+  font-size: 28px;
   color: rgb(237,228,218);
 }
 
 
 .discoverButton{
-  margin-top: 12.1%;
+  margin-top: 5%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -135,15 +137,15 @@
   padding-top: 10px;
   text-align: center;
   font-family: HoeflerText-Regular;
-  font-size: 58px;
+  font-size: 30px;
   color: rgb(237,228,218);
 }
 
 .scrolldown_text{
-  margin-top: 5%;
+  margin-top: 2%;
   text-align: center;
   font-family: HoeflerText-Regular;
-  font-size: 28px;
+  font-size: 20px;
   color: rgb(237,228,218);
 }
 
