@@ -5,14 +5,14 @@ import CheckIcon from '../../../assets/checkMark.png';
 import emailjs from 'emailjs-com';
 
 class BookNowForm extends Component {
-  state = {   
+  state = {
     submitted: false,
     guestFormOpened: false,
     fullName: '',
     guests: '',
     date: '',
     email: ''
-  }  
+  }
 
   handleChange = (property) => {
     return e => {
@@ -37,17 +37,17 @@ class BookNowForm extends Component {
     this.setState(this.handleInitialState());
   }
 
- 
+
   handleSubmit = (e) => {
     e.preventDefault();
     this.setState({
       submitted: true,
     });
-    const guestInfo = 'Name: ' + this.state.fullName + '\nDate: ' + this.state.date + '\nGuest: ' + 
+    const guestInfo = 'Name: ' + this.state.fullName + '\nDate: ' + this.state.date + '\nGuest: ' +
     this.state.guests + '\nEmail: ' + this.state.email;
 	  this.sendEmail({message_html: guestInfo, from_name: this.state.fullName, reply_to: this.state.email, test_date: this.state.date, test_guests: this.state.guests});
     this.props.submitted();
-    
+
   }
 
 
@@ -83,56 +83,56 @@ class BookNowForm extends Component {
       return (
       <form className="bookingForm">
         <p className="popupFont">Full Name</p>
-        <input 
-            className="myText__input fullName" 
+        <input
+            className="myText__input fullName"
             id = "name"
-            type="text"
             value={this.state.fullName}
             onChange={this.handleChange('fullName')}
-        /> 
+        />
+        {/*took out type text to prevent conflict with input[type="text"] in Contact.css*/}
         <p className="popupFont">Guests</p>
-        <input 
-            className="myText__input guests" 
+        <input
+            className="myText__input guests"
             id ="guest"
-            type="text"
             value={this.state.guests}
             onClick={this.handleGuestFormOpen}
             onChange={this.handleChange('guests')}
-        /> 
+        />
+        {/*took out type text to prevent conflict with input[type="text"] in Contact.css*/}
         <p className="popupFont">Date</p>
-        <input 
+        <input
             className="myText__input date"
-            id = "date" 
+            id = "date"
             type="date"
             value={this.state.date}
             onChange={this.handleChange('date')}
-        /> 
+        />
         <p className="popupFont">Email</p>
-        <input 
-            className="myText__input email" 
+        <input
+            className="myText__input email"
             id = "email"
             type="email"
             value={this.state.email}
             onChange={this.handleChange('email')}
-        /> 
+        />
         <input className="myText__submit" value="Done" onClick={this.handleSubmit}/>
         <br />
        <GuestForm isGuestOpen={this.state.guestFormOpened} isGuestClose={this.handleGuestFormClose} guestString={this.setGuestString}></GuestForm>
-       
+
       </form>
       )
       } else {
         return (
           <div className="bookingConfirm" id="bookingConfirm">
-            <img className = "checkMark" alt="checkMark" src = {CheckIcon}/>            
+            <img className = "checkMark" alt="checkMark" src = {CheckIcon}/>
             <p className='confirmMessage'>A confirmation will be sent to your email.<br/> Please allow 2-3 business days. </p>
-            <p className='thankYou'>Thank you!</p>   
+            <p className='thankYou'>Thank you!</p>
           </div>
         )
       }
     }
-  
-    render() {    
+
+    render() {
     return (
       <Fragment>
         {this.formComponent()}
