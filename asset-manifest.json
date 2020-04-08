@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/boat-test-project/static/css/main.7edf79aa.chunk.css",
-    "main.js": "/boat-test-project/static/js/main.3b63f9ab.chunk.js",
-    "main.js.map": "/boat-test-project/static/js/main.3b63f9ab.chunk.js.map",
+    "main.css": "/boat-test-project/static/css/main.927d4b6c.chunk.css",
+    "main.js": "/boat-test-project/static/js/main.decf6a75.chunk.js",
+    "main.js.map": "/boat-test-project/static/js/main.decf6a75.chunk.js.map",
     "runtime-main.js": "/boat-test-project/static/js/runtime-main.605148b6.js",
     "runtime-main.js.map": "/boat-test-project/static/js/runtime-main.605148b6.js.map",
-    "static/js/2.522dcf96.chunk.js": "/boat-test-project/static/js/2.522dcf96.chunk.js",
-    "static/js/2.522dcf96.chunk.js.map": "/boat-test-project/static/js/2.522dcf96.chunk.js.map",
+    "static/js/2.f821da61.chunk.js": "/boat-test-project/static/js/2.f821da61.chunk.js",
+    "static/js/2.f821da61.chunk.js.map": "/boat-test-project/static/js/2.f821da61.chunk.js.map",
     "index.html": "/boat-test-project/index.html",
-    "precache-manifest.c8aa47e959d5ebc2976113bfd0d74bc9.js": "/boat-test-project/precache-manifest.c8aa47e959d5ebc2976113bfd0d74bc9.js",
+    "precache-manifest.ff66181be16a1fb93d8b4d9a30650f29.js": "/boat-test-project/precache-manifest.ff66181be16a1fb93d8b4d9a30650f29.js",
     "service-worker.js": "/boat-test-project/service-worker.js",
-    "static/css/main.7edf79aa.chunk.css.map": "/boat-test-project/static/css/main.7edf79aa.chunk.css.map",
-    "static/js/2.522dcf96.chunk.js.LICENSE.txt": "/boat-test-project/static/js/2.522dcf96.chunk.js.LICENSE.txt",
+    "static/css/main.927d4b6c.chunk.css.map": "/boat-test-project/static/css/main.927d4b6c.chunk.css.map",
+    "static/js/2.f821da61.chunk.js.LICENSE.txt": "/boat-test-project/static/js/2.f821da61.chunk.js.LICENSE.txt",
     "static/media/DeaConnectionLogo.png": "/boat-test-project/static/media/DeaConnectionLogo.4f0023eb.png",
     "static/media/index.css": "/boat-test-project/static/media/new-york-extra-large_regular.4b281e5c.ttf",
     "static/media/andre-benz-MsMISAIe8Qw-unsplash.png": "/boat-test-project/static/media/andre-benz-MsMISAIe8Qw-unsplash.697384b3.png",
     "static/media/artur-rutkowski-LDxq4MnYB5U-unsplash.png": "/boat-test-project/static/media/artur-rutkowski-LDxq4MnYB5U-unsplash.a1e80e7c.png",
     "static/media/bantersnaps-Bxzrd0p6yOM-unsplash.png": "/boat-test-project/static/media/bantersnaps-Bxzrd0p6yOM-unsplash.13191e19.png",
     "static/media/bantersnaps-Bxzrd0p6yOM-unsplash@3x.png": "/boat-test-project/static/media/bantersnaps-Bxzrd0p6yOM-unsplash@3x.7c6546d4.png",
+    "static/media/checkMark.png": "/boat-test-project/static/media/checkMark.77bd6d9d.png",
     "static/media/hours_content.png": "/boat-test-project/static/media/hours_content.cdac5cba.png",
     "static/media/LandingPage.css": "/boat-test-project/static/media/janek-holoubek-15gOocGd8Qc-unsplash@2x.41b1db20.png",
     "static/media/Contact.css": "/boat-test-project/static/media/masaaki-komori--4pA83nGCR8-unsplash.06393eeb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.605148b6.js",
-    "static/js/2.522dcf96.chunk.js",
-    "static/css/main.7edf79aa.chunk.css",
-    "static/js/main.3b63f9ab.chunk.js"
+    "static/js/2.f821da61.chunk.js",
+    "static/css/main.927d4b6c.chunk.css",
+    "static/js/main.decf6a75.chunk.js"
   ]
 }
