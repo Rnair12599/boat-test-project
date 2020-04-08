@@ -17,7 +17,7 @@ import RamenShadowPictures from '../../assets/ramen_shadow_pictures/artur-rutkow
 import UmbrellaPictures from '../../assets/umbrella_pictures/andre-benz-MsMISAIe8Qw-unsplash.png';
 import SponsorLogo from '../../assets/sponsors_logo_pictures/Sponsors.png';
 import SponsorTeamwork from '../../assets/sponsor_teamwork_pictures/noun_teamwork_people_1979218.png';
-
+import BookingPopup from '../components/booking/BookingPopup';
 
 
 
@@ -28,13 +28,31 @@ import './LandingPage.css';
 const LandingPage = ({props}) => {
 
 
-  const handleBookNowClick = (e) => {
 
-  }
+    let [isOpen, setIsOpen] = useState(false);
 
-  const renderSemantic = () => {
 
-  }
+    let styles1 = {
+      filter: 'blur(0px)'
+    };
+
+    let styles2 = {
+      filter: 'blur(5px)'
+
+    };
+
+    let [styles, setStyles] = useState(styles1);
+
+
+    const handleBookNowClick = (e) => {
+      setIsOpen(true);
+      setStyles(styles2);
+    }
+
+    const handleBookNowClose = (e) => {
+      setIsOpen(false);
+      setStyles(styles1);
+    }
 
 
 
@@ -42,7 +60,7 @@ const LandingPage = ({props}) => {
   return(
 
     <div className = "landingpage_container">
-      <div className = "boatimage_container">
+      <div className = "boatimage_container" style={styles}>
         <Media query="(min-width: 768px)" render={() => (
           <div className = "navBar_Full">
             <div className = "bookNowButtonContainer" >
@@ -99,8 +117,12 @@ const LandingPage = ({props}) => {
         </div>
         <img className = "down_arrow" src = {DownArrow} alt = "down arrow"/>
       </div>
+      <div className = "booking_popup_container">
+        <BookingPopup isOpen={isOpen} isClose={handleBookNowClose}></BookingPopup>
+      </div>
 
-      <div className = "info_container">
+
+      <div className = "info_container" style={styles}>
         <div className = "tour_content_container">
           <div className = "Discover_text_container">
             <div className = "shadow_text">
@@ -312,7 +334,7 @@ const LandingPage = ({props}) => {
 
         )}/>
 
-        <button className = "bottombookNowButton">
+        <button className = "bottombookNowButton" onClick = {handleBookNowClick}>
           <div div className = "bottombookNowText">
             Book Now
           </div>
@@ -321,7 +343,7 @@ const LandingPage = ({props}) => {
     </div>
 
     <Media query="(min-width: 1024px)" render={() => (
-      <div className = "footer_container">
+      <div className = "footer_container" style={styles}>
         <span>
           <div className = "footer_left_column">
             <div className = "footer_text_legal">
@@ -374,7 +396,7 @@ const LandingPage = ({props}) => {
     )}/>
 
   <Media query="(max-width: 1023px)" render={() => (
-      <div className = "footer_medium_container">
+      <div className = "footer_medium_container" style={styles}>
         <div className = "footer_container">
           <span>
             <div className = "footer_left_column">

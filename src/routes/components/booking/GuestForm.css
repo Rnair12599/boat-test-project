@@ -1,0 +1,188 @@
+.guestpopup_inner {
+  position: fixed;
+  background-color: rgb(237,228,218);
+  z-index: 3;
+  margin-left: 60pt;
+  top: 15%;
+  width: 30vw;
+  color:rgb(237,228,218);
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.closeGuest{
+    border: none;
+    z-index: 3;
+    background-color: transparent;
+    color: rgb(1,90,77);
+    cursor: pointer;
+    font-size: 30pt;
+    position: relative;
+    left: 1%;
+    margin: 5pt;
+
+
+}
+
+.guestFont {
+    z-index: 3;
+    color:rgb(1,90,77);
+    border-bottom-color: rgb(1,90,77);
+    border-bottom-width: 10pt;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    font-style: italic;
+    margin :10pt;
+
+}
+
+.numbers{
+    z-index: 3;
+    color: rgb(1,90,77);
+    font-size: 30pt;
+    cursor: context-menu;
+    position: absolute;
+    right: 0;
+    margin-right: 60pt;
+}
+
+.plusMinus {
+    z-index: 3;
+    color: rgb(1,90,77);
+    cursor: pointer;
+    margin: 0 6pt;
+}
+
+.guestSubmit {
+    z-index: 3;
+    display: block;
+    width: 100pt;
+    background-color: rgba(1, 90, 77, 0.71);
+    color: rgb(237,228,218);
+    border: none;
+    display: block;
+    width: 100pt;
+    padding: 20px 15px;
+    font-size: 17pt;
+    margin: 25px auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Mshtakan;
+
+}
+
+.guestType{
+    z-index:3;
+    color: rgb(112, 112, 112);
+    font-size: 20pt;
+    margin: 30pt 70pt;
+}
+
+
+@media screen and (max-width: 1190px) {
+    .guestpopup_inner {
+        position: fixed;
+        background-color: rgb(237,228,218);
+        z-index: 3;
+        margin-left: 0;
+        top: 15%;
+        width: 40vw;
+        color:rgb(237,228,218);
+        -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+           -khtml-user-select: none; /* Konqueror HTML */
+             -moz-user-select: none; /* Old versions of Firefox */
+              -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none;
+      }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1023px) {
+    .guestType{
+        font-size: 15pt;
+        margin: 30pt 50pt;
+    }
+
+    .numbers{
+    font-size: 20pt;
+    right: 0;
+    margin-right: 50pt;
+    }
+
+    .guestpopup_inner {
+        width:60vw;
+        left: 20vw;
+    }
+
+    .guestSubmit {
+        width: 100pt;
+        padding: 20px 15px;
+        font-size: 17pt;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .guestType{
+        font-size:15pt;
+        margin: 30pt 50pt;
+    }
+
+    .numbers{
+    font-size: 20pt;
+    right: 0;
+    margin-right: 50pt;
+    }
+
+    .guestpopup_inner {
+        width:80vw;
+        left: 10vw;
+    }
+
+    .guestSubmit {
+        width: 70pt;
+        padding: 20px 15px;
+        font-size: 14pt;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .guestType{
+        font-size: 17pt;
+        margin: 30pt 20pt;
+    }
+
+    .numbers{
+    font-size: 20pt;
+    right: 0;
+    margin-right: 20pt;
+    }
+
+    .guestpopup_inner {
+        width:80vw;
+        left: 10vw;
+    }
+
+    .guestSubmit {
+        width: 70pt;
+        padding: 10px 15px;
+        font-size: 14pt;
+    }
+
+
+}

@@ -1,0 +1,91 @@
+.bookingForm {
+    color: rgb(234,228,220);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popupFont {
+    position: relative;
+    font-style: italic;
+    margin-block-start: 7pt;
+    margin-block-end: 1pt;
+    font-family: Mshtakan;
+}
+
+input {
+    position: relative;
+    width: 90%;
+    background-color: rgb(237,228,218);
+    color: rgb(54,69,79);
+    padding: 14px 20px;
+    /*margin: 8px 0;*/
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Mshtakan;
+  }
+  
+.myText__submit {
+    position: relative;
+    display: block;
+    width: 30pt;
+    background-color: rgb(237,217,195);
+    color: rgb(54,69,79);
+    padding: 10px 15px;
+    margin: 25px auto;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Mshtakan;
+  }
+
+
+
+  .thankYou{
+    font-size: 22pt;
+    text-align: center;
+    padding-bottom: 40pt;
+    font-style: italic;
+    
+  }
+
+  .confirmMessage{
+    font-size: 22pt;
+    text-align: center;
+    margin: 50pt;
+  }
+
+  .checkMark{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100pt;
+    margin-top: 30pt;
+  }
+
+
+  
+@media screen and (max-width: 1190px) {
+
+  .confirmMessage{
+    font-size: 17pt;
+    margin: 30pt;
+  }
+
+  .thankYou{
+    font-size: 19pt;
+    
+  }
+
+  .checkMark{
+    width: 80pt;
+    margin-top: 10pt;
+  }
+
+  
+
+}

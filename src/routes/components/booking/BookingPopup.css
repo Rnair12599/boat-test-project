@@ -1,0 +1,17 @@
+  .popup_inner{
+    background-color: rgb(1,90,77);
+    font-family: Mshtakan;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .close {
+    font-size: 30pt;
+    color: rgb(237,217,195);
+    background-color: transparent;
+    position: relative;
+    left: 1%;
+    margin: 5pt;
+    border: none;
+  }

@@ -79,7 +79,6 @@
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 11px;
-
   font-family: IowanOldStyle;
   font-style: italic;
   color: rgb(212,224,238);
@@ -159,6 +158,23 @@
   margin-bottom: 3%;
 }
 
+
+.testTest {
+  font-size: 100px;
+}
+
+
+.booking_popup_container{
+  position: fixed;
+  z-index: 10;
+  top: 15%;
+ /*left: auto;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  font-family: Mshtakan;
+  transform: translate(50%); /*used to center popup*/
+}
 
 
 
@@ -681,7 +697,7 @@
   padding-top: 50%;
   margin-left: 57.5%;
   transform: translate(-50%);
-  padding-top: 30%;
+  padding-top: 27.5%;
   width: 270px;
   height: 97px;
 }
@@ -733,17 +749,39 @@
     padding-right: 20px;
   }
   .experience_container{
-    max-width: 365px;
+    max-width: 300px;
     margin-left: 5.6%;
   }
   .experience_text{
-    font-size: 45px;
+    font-size: 30px;
   }
   .osaka_text{
-    font-size: 180px;
+    font-size: 100px;
+  }
+  .osaka_container{
+    display: flex;
+    margin-top: 40px;
+    background-color: rgba(30,200,185,0.4);
+    margin-left: 25%;
+    margin-right: 21%;
+    max-width: 771px;
+    height: 120px;
   }
   .message_text{
-    font-size: 31px;
+    font-size: 23px;
+  }
+  .testTest {
+    font-size: 100px;
+  }
+  .booking_popup_container{
+    position: fixed;
+    z-index: 10;
+    top: 15%;
+     /*left: auto;*/
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(50%);
+    width: 50vw;
   }
 
   .textandinfo{
@@ -1001,6 +1039,22 @@
   .discoverButton_text{
     font-size: 33px;
   }
+  .testTest {
+    font-size: 100px;
+  }
+  .booking_popup_container{
+    position: fixed;
+    z-index: 10;
+    top: 15%;
+    /*left: auto;*/
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(50%);
+    width: 80vw;
+  }
+
+
+
   .message_text{
     font-size: 21px;
   }
